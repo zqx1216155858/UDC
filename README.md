@@ -7,20 +7,19 @@ Next, we combine the Flickr-Faces-HQ dataset and employ a pixel-level discrimina
 Furthermore, we designed an multi-resolution progressive transformer (MRPFormer) for facial UDC image restoration, employing a multi-resolution progressive learning approach to  hierarchically reconstruct global facial information.  On the UDC benchmark. Our approach outperforms previous models by 5.17 dB on the P-OLED track and exceeds by 0.93 dB on the T-OLED track.
 ---
 ## Contents
-1. [Performance](#DLGNet Performance)
+1. [Architecture](#Architecture)
+1. [Performance](#Performance)
 2. [Environment](#Environment)
-3. [Download](#文件下载)
-4. [How2train](#训练步骤)
-5. [How2predict](#预测步骤)
 7. [Reference](#Reference)
 
+## Architecture
+![DLGNet](https://github.com/zqx1216155858/UDC/assets/112853772/002f50db-e6a0-4ff3-883c-f1a5153eab0f)
 
-
-## DLGNet Performance
-
+## Performance
+*DLGNet
 
 | Train Datasets | Weight |  PSNR | SSIM |
-| :-----: | :-----: | :------: | :------: | :------: | 
+| :-----: | :-----: | :------: | :------: |
 | [UDC Taining Dataset(POLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  35.50 | 0.970|
 | [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
