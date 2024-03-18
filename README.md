@@ -16,10 +16,14 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 
 
 
-## Performance
-| FFHQ_UDC_train | 权值文件名称 | FFHQ_UDC_test |  | PSNR | SSIM |
+## DLGNet Performance
+
+
+| Train Datasets | Weight | | PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| VisDrone2019-DET-train | yolov7-tiny-best.pt | VisDrone2019-DET-val |  | 36.8 | 54.4|
+| UDC Taining Dataset(POLED) | DLGNet_poled | | 35.50 | 0.970|
+| :-----: | :-----: | :------: | :------: | :------: | :-----: |
+| UDC Taining Dataset(TOLED) | DLGNet_toled | | 42.80 | 0.986|
 
 ## 所需环境
 软件环境：该储存库是在pytorch 1.9.0+cu111中构建的
