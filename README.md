@@ -40,10 +40,18 @@ DLGNet
 
 
 ## FFHQ_UDC
-| P-OLED | T-OLED |  GT |
-| :-----: | :-----: | :------: |
-| ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/15cbff64-08ea-4c99-9338-4176de326e12) | ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/e48759d4-06d4-4dfd-9eb5-409cae87dc82)
- | ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/2babd455-72dc-4f74-bc84-fb4ae21486e5) |
+P-OLED 
+![00000](https://github.com/zqx1216155858/UDC/assets/112853772/15cbff64-08ea-4c99-9338-4176de326e12)  
+![00001](https://github.com/zqx1216155858/UDC/assets/112853772/f733ba6e-40bc-4b78-b74c-4d28e13e3205)
+
+T-OLED 
+![00000](https://github.com/zqx1216155858/UDC/assets/112853772/e48759d4-06d4-4dfd-9eb5-409cae87dc82)
+![00001](https://github.com/zqx1216155858/UDC/assets/112853772/e6fba303-87b8-4a14-9810-358c87ce05a6)
+
+GT
+![00000](https://github.com/zqx1216155858/UDC/assets/112853772/2babd455-72dc-4f74-bc84-fb4ae21486e5)
+![00001](https://github.com/zqx1216155858/UDC/assets/112853772/ab365b9d-811e-481b-a1b9-3e7e558c26ed)
+
 
 Datasets of FFHQ_UDC are available at [FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
 
