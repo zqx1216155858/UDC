@@ -8,7 +8,7 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 ---
 ## Contents
 1. [Performance](#性能情况)
-2. [Environment](#Environment)
+2. [Environment](#CreatEnvironment)
 3. [Download](#文件下载)
 4. [How2train](#训练步骤)
 5. [How2predict](#预测步骤)
@@ -19,76 +19,28 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 ## DLGNet Performance
 
 
-| Train Datasets | Weight | | PSNR | SSIM |
+| Train Datasets | Weight |  PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: | :------: | 
-| UDC Taining Dataset(POLED) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 35.50 | 0.970|
-| :-----: | :-----: | :------: | :------: | :------: | 
-| UDC Taining Dataset(TOLED) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 42.80 | 0.986|
+| [UDC Taining Dataset(POLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  35.50 | 0.970|
+| [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
-## Environment
-软件环境：该储存库是在pytorch 1.9.0+cu111中构建的
+## Creat Environment
 
-1. 克隆我们的储存库
 
+* Python3(Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
+* NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+* Python packages
 ```python
 git clone https://github.com/zqx1216155858/UDC.git
 cd UDC
-```
-
-2. Creat conda environment
-
-```python
 conda create -n UDC python=3.8
 conda activate UDC
-```
-
-3. requriement packages
-
-```python
 conda install pytorch=1.9.0+cu111  -c pytorch
 pip install -r requirements.txt
 ```
 
-## Download
-**Datasets**
-
-https://github.com/VisDrone/VisDrone-Dataset
-
-Task 1: Object Detection in Images
-
-## 训练步骤
 
 
-**1. 数据集的准备**  
-  训练前将标签文件放在datasets文件夹下的VisDrone文件夹下的labels中。   
-  训练前将图片文件放在datasets文件夹下的VisDrone文件夹下的images中。   
-
-**2. 开始网络训练**  
-
-```python
-python train.py --workers 8 --device 0 --batch-size 32 --data data/visdrone.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7 --hyp data/hyp.scratch.p5.yaml
-```
-
-## 预测步骤
-1.**测试**
-
-```python
-python test.py --data data/visdrone.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights yolov7-tiny-best.pt --name yolov7_val
-```
-
-**2.推理**
-
-​	视频上
-
-```python
-python detect.py --weights yolov7-tiny-best.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
-```
-
-​	图像上
-
-```python
-python detect.py --weights yolov7-tiny-best.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
-```
 
 ## Reference
 https://github.com/zqx1216155858/yolov7-tiny.git
