@@ -7,8 +7,8 @@ Next, we combine the Flickr-Faces-HQ dataset and employ a pixel-level discrimina
 Furthermore, we designed an multi-resolution progressive transformer (MRPFormer) for facial UDC image restoration, employing a multi-resolution progressive learning approach to  hierarchically reconstruct global facial information.  On the UDC benchmark. Our approach outperforms previous models by 5.17 dB on the P-OLED track and exceeds by 0.93 dB on the T-OLED track.
 ---
 ## Contents
-1. [Performance](#性能情况)
-2. [Environment](#CreatEnvironment)
+1. [Performance](#DLGNet Performance)
+2. [Environment](#Environment)
 3. [Download](#文件下载)
 4. [How2train](#训练步骤)
 5. [How2predict](#预测步骤)
@@ -24,8 +24,7 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 | [UDC Taining Dataset(POLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  35.50 | 0.970|
 | [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
-## Creat Environment
-
+## Environment
 
 * Python3(Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 * NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
