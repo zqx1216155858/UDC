@@ -9,7 +9,7 @@ from model import DLGNet
 from datasets import *
 from options import Options
 from DiscriminatorSN import UNetDiscriminatorSN, weight_init
-from basicsr.losses.MPRNetloss import LS_D_Loss, LS_G_Loss, Pair_Loss
+from basicsr.losses.DLGNetloss import LS_D_Loss, LS_G_Loss, Pair_Loss
 from basicsr.train.DLGNet_train import train_D, train_G
 
 
