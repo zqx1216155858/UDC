@@ -1,9 +1,13 @@
 # UDC
 ---
 
-## 目录
+## Contents
 
-
+blogexcerpt：Under-display camera (UDC) image restoration is a crucial aspect supporting the full-screen smartphones. 
+However, the absence of a dedicated facial UDC dataset, given its role as the front-facing camera, limits this work to scene restoration only.
+As collecting aligned facial UDC images is almost impossible, We propose a generative model named degradation learning generative network (DLGNet),  designed to progressively learn multi-scale complex degradations, simulating the degradation process of UDC images. 
+Next, we combine the Flickr-Faces-HQ dataset and employ a pixel-level discriminator along with supervised training to simulate UDC degradation, resulting in the generation of the facial UDC dataset.  
+Furthermore, we designed an multi-resolution progressive transformer (MRPFormer) for facial UDC image restoration, employing a multi-resolution progressive learning approach to  hierarchically reconstruct global facial information.  On the UDC benchmark. Our approach outperforms previous models by 5.17 dB on the P-OLED track and exceeds by 0.93 dB on the T-OLED track.
 
 
 1. [Performance](#性能情况)
@@ -15,8 +19,8 @@
 
 
 
-## 性能情况
-| 训练数据集 | 权值文件名称 | 测试数据集 |  | mAP 0.5:0.95 | mAP 0.5 |
+## Performance
+| FFHQ_UDC_train | 权值文件名称 | FFHQ_UDC_test |  | PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
 | VisDrone2019-DET-train | yolov7-tiny-best.pt | VisDrone2019-DET-val |  | 36.8 | 54.4|
 
