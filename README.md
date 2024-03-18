@@ -42,7 +42,8 @@ DLGNet
 ## FFHQ_UDC
 | P-OLED | T-OLED |  GT |
 | :-----: | :-----: | :------: |
-| ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/15cbff64-08ea-4c99-9338-4176de326e12) | ![00000 (https://github.com/zqx1216155858/UDC/assets/112853772/9f3cb91a-a2a9-40a7-83f8-621c1ed9b010) | ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/2babd455-72dc-4f74-bc84-fb4ae21486e5) |
+| ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/15cbff64-08ea-4c99-9338-4176de326e12) | ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/e48759d4-06d4-4dfd-9eb5-409cae87dc82)
+ | ![00000](https://github.com/zqx1216155858/UDC/assets/112853772/2babd455-72dc-4f74-bc84-fb4ae21486e5) |
 
-[FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
+Datasets of FFHQ_UDC are available at [FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
 
