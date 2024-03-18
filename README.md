@@ -10,7 +10,7 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 1. [Architecture](#Architecture)
 2. [Environment](#Environment)
 3. [Performance](#Performance)
-7. [Reference](#Reference)
+4. [Dataset](#FFHQ_UDC)
 
 ## Architecture
 ![DLGNet](https://github.com/zqx1216155858/UDC/assets/112853772/002f50db-e6a0-4ff3-883c-f1a5153eab0f)
@@ -39,5 +39,6 @@ pip install -r requirements.txt
 | [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
 
-## Reference
-https://github.com/zqx1216155858/yolov7-tiny.git
+## FFHQ_UDC
+*[FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
+
