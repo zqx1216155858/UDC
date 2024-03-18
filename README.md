@@ -8,20 +8,13 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 ---
 ## Contents
 1. [Architecture](#Architecture)
-1. [Performance](#Performance)
 2. [Environment](#Environment)
+3. [Performance](#Performance)
 7. [Reference](#Reference)
 
 ## Architecture
 ![DLGNet](https://github.com/zqx1216155858/UDC/assets/112853772/002f50db-e6a0-4ff3-883c-f1a5153eab0f)
 
-## Performance
-*DLGNet
-
-| Train Datasets | Weight |  PSNR | SSIM |
-| :-----: | :-----: | :------: | :------: |
-| [UDC Taining Dataset(POLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  35.50 | 0.970|
-| [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
 ## Environment
 
@@ -37,7 +30,13 @@ conda install pytorch=1.9.0+cu111  -c pytorch
 pip install -r requirements.txt
 ```
 
+## Performance
+*DLGNet
 
+| Train Datasets | Weight |  PSNR | SSIM |
+| :-----: | :-----: | :------: | :------: |
+| [UDC Taining Dataset(POLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  35.50 | 0.970|
+| [UDC Taining Dataset(TOLED)](https://drive.google.com/file/d/1zB1xoxKBghTTq0CKU1VghBoAoQc5YlHk/view) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) |  42.80 | 0.986|
 
 
 ## Reference
