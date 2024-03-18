@@ -3,7 +3,7 @@
 
 ## Contents
 
-blogexcerpt：Under-display camera (UDC) image restoration is a crucial aspect supporting the full-screen smartphones. 
+>Under-display camera (UDC) image restoration is a crucial aspect supporting the full-screen smartphones. 
 However, the absence of a dedicated facial UDC dataset, given its role as the front-facing camera, limits this work to scene restoration only.
 As collecting aligned facial UDC images is almost impossible, We propose a generative model named degradation learning generative network (DLGNet),  designed to progressively learn multi-scale complex degradations, simulating the degradation process of UDC images. 
 Next, we combine the Flickr-Faces-HQ dataset and employ a pixel-level discriminator along with supervised training to simulate UDC degradation, resulting in the generation of the facial UDC dataset.  
