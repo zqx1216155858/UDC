@@ -21,9 +21,9 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 
 | Train Datasets | Weight | | PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| UDC Taining Dataset(POLED) | DLGNet_poled(https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 35.50 | 0.970|
+| UDC Taining Dataset(POLED) | [DLGNet_poled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 35.50 | 0.970|
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| UDC Taining Dataset(TOLED) | DLGNet_toled(https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 42.80 | 0.986|
+| UDC Taining Dataset(TOLED) | [DLGNet_toled](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 42.80 | 0.986|
 
 ## Environment
 软件环境：该储存库是在pytorch 1.9.0+cu111中构建的
