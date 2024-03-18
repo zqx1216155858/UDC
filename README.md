@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 ## Performance
-*DLGNet
+DLGNet
 
 | Train Datasets | Weight |  PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: |
@@ -40,5 +40,5 @@ pip install -r requirements.txt
 
 
 ## FFHQ_UDC
-*[FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
+[FFHQ_UDC](https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq)
 
