@@ -8,7 +8,7 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 ---
 ## Contents
 1. [Performance](#性能情况)
-2. [Environment](#所需环境)
+2. [Environment](#Environment)
 3. [Download](#文件下载)
 4. [How2train](#训练步骤)
 5. [How2predict](#预测步骤)
@@ -21,38 +21,36 @@ Furthermore, we designed an multi-resolution progressive transformer (MRPFormer)
 
 | Train Datasets | Weight | | PSNR | SSIM |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| UDC Taining Dataset(POLED) | DLGNet_poled | | 35.50 | 0.970|
+| UDC Taining Dataset(POLED) | DLGNet_poled(https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 35.50 | 0.970|
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| UDC Taining Dataset(TOLED) | DLGNet_toled | | 42.80 | 0.986|
+| UDC Taining Dataset(TOLED) | DLGNet_toled(https://drive.google.com/drive/folders/1gyZQ9Rjokv0YhtqyctkSyGzoNVzWpSuq) | | 42.80 | 0.986|
 
-## 所需环境
+## Environment
 软件环境：该储存库是在pytorch 1.9.0+cu111中构建的
 
 1. 克隆我们的储存库
 
 ```python
-git clone https://github.com/zqx1216155858/yolov7-tiny.git
-cd yolov7-tiny
+git clone https://github.com/zqx1216155858/UDC.git
+cd UDC
 ```
 
-2. 制作conda环境
+2. Creat conda environment
 
 ```python
-conda create -n yolov7-tiny python=3.8
-conda activate yolov7-tiny
+conda create -n UDC python=3.8
+conda activate UDC
 ```
 
-3. 安装依赖库
+3. requriement packages
 
 ```python
 conda install pytorch=1.9.0+cu111  -c pytorch
 pip install -r requirements.txt
 ```
 
-硬件环境：NVIDIA  A100
-
-## 文件下载
-**数据集**
+## Download
+**Datasets**
 
 https://github.com/VisDrone/VisDrone-Dataset
 
